@@ -28,7 +28,7 @@
 
     .offer-banner {
       text-align: center;
-      font-size: 1.1rem;
+      font-size: 1rem;
       color: #ffb703;
       margin-bottom: 2rem;
     }
@@ -177,7 +177,7 @@
 
   <h1>🎬 CreepyCorex Editing Course Store</h1>
   <div class="offer-banner">
-    🚀 60% OFF for first 20 users — <span class="countdown" id="countdown">Loading...</span>
+     60% OFF for first 20 users — <span class="countdown" id="countdown">Loading...</span>
   </div>
 
   <div class="scroll-icon" id="scrollIcon">⬇️</div>
@@ -191,7 +191,7 @@
       <ul>
         <li>✅ Images & AI I Use</li>
         <li>✅ My Editing Tools </li>
-        <li>✅ My Audio Voice + FX</li>
+        <li>✅ Basic Audio Voice + FX</li>
       </ul>
       <a href="https://t.me/angadbr" target="_blank" class="btn">Buy Now</a>
     </div>
@@ -256,7 +256,7 @@
         offerStart.setDate(offerStart.getDate() - 1); // If before 8PM, show yesterday's
       }
 
-      const offerEnd = new Date(offerStart.getTime() + 17 * 60 * 60 * 1000); // +17 hours
+      const offerEnd = new Date(offerStart.getTime() + 23 * 60 * 60 * 1000); // +17 hours
       const diff = offerEnd - nowIST;
 
       if (diff <= 0) {
